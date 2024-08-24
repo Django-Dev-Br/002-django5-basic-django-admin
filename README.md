@@ -81,6 +81,7 @@ O Django Admin é uma interface administrativa gerada automaticamente por meio d
 
 ```
 002-django4-admin-setup/
+├── db.sqlite3           # Banco de dados SQLite criado após as migrações
 ├── myproject/
 │   ├── __init__.py      # Marca o diretório como um pacote Python
 │   ├── asgi.py          # Configurações para o servidor ASGI (usado para aplicações assíncronas)
