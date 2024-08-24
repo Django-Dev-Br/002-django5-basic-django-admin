@@ -1,6 +1,13 @@
 
 # 002 Django 4 Admin Setup
 
+### O que é o Django Admin?
+
+O Django Admin é uma interface administrativa gerada automaticamente por meio das configurações do projeto Django. Ele permite gerenciar modelos (tabelas de bancos de dados) e realizar operações CRUD (Criar, Ler, Atualizar, Deletar) de forma rápida e eficiente. O Django Admin é uma ferramenta poderosa para gerenciar o conteúdo e as funcionalidades do seu site diretamente a partir do navegador.
+
+[confira o melhor material de toda a internet sobre o assunto:](https://books.agiliq.com/projects/django-admin-cookbook/en/latest/)
+
+
 ## COMO RODAR ESSE PROJETO EM SEU COMPUTADOR:
 
 ### Requisitos
@@ -74,9 +81,6 @@ Após executar o servidor de desenvolvimento, você pode acessar o Django Admin 
 
 Faça login com as credenciais do superusuário que você acabou de criar.
 
-### O que é o Django Admin?
-
-O Django Admin é uma interface administrativa gerada automaticamente por meio das configurações do projeto Django. Ele permite gerenciar modelos e realizar operações CRUD (Criar, Ler, Atualizar, Deletar) de forma rápida e eficiente. O Django Admin é uma ferramenta poderosa para gerenciar o conteúdo e as funcionalidades do seu site diretamente a partir do navegador.
 
 ### Estrutura de Diretórios do Projeto
 
@@ -91,6 +95,14 @@ O Django Admin é uma interface administrativa gerada automaticamente por meio d
 │   ├── urls.py          # Mapeamento de requisições HTTP e redirecionamento para os templates HTML
 │   └── wsgi.py          # Configurações para o servidor WSGI (usado para servir a aplicação)
 └── manage.py            # CLI do Django, um script de linha de comando para tarefas administrativas do Django
+```
+
+### OBS: Como Criar um Projeto Django
+
+Se desejar criar seu próprio projeto Django, use o seguinte comando após criar e ativar a virtual env e instalar o django nela, conforme orientações acima:
+
+```bash
+django-admin startproject myproject
 ```
 
 ### Sobre Nosso Treinamento Prático-Profissional com projeto real para iniciantes e avançados em web DevOps Full-stack com Python, Django, Bootstrap e Linux.
