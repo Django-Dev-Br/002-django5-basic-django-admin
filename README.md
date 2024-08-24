@@ -28,7 +28,7 @@
 
 1. **Clone o repositório**:
     ```bash
-    git clone <URL_DO_REPOSITORIO>
+    git clone https://github.com/Django-Dev-Br/002-django4-basic-django-admin.git
     cd 002-django4-admin-setup
     ```
 
