@@ -51,7 +51,7 @@
 
 5. **Execute as migrações do banco de dados**:
     ```bash
-    python manage.py migrate
+    python manage.py migrate # Esse comando criará no diretório raiz o banco de dados db.sqlite3 com o esquema de tabelas do Django
     ```
 
 6. **Crie um superusuário para acessar o Django Admin**:
