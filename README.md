@@ -82,6 +82,7 @@ O Django Admin é uma interface administrativa gerada automaticamente por meio d
 
 ```
 002-django4-admin-setup/
+├── .gitignore           # Arquivo que especifica quais arquivos e diretórios o Git deve ignorar (não incluir no versionamento)
 ├── db.sqlite3           # Banco de dados SQLite criado após as migrações
 ├── myproject/
 │   ├── __init__.py      # Marca o diretório como um pacote Python
