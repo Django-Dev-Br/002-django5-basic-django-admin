@@ -1,6 +1,12 @@
 
 # 002 Django 4 Admin Setup
 
+No [repositório anterior](https://github.com/Django-Dev-Br/001-django4-basic-project) criamos um projeto Django. 
+Agora, dando sequência, vamos materializar a estrutura de tabelas do banco de dados que vem com o Django. Em seguidna, vamos criar um superusuário para acesar o Django-Admin. 
+Nos repositórios seguines,[03](https://github.com/Django-Dev-Br/003-django-4-fixtures) e [04](https://github.com/Django-Dev-Br/004-django-4-dot-env-file), vamos adicionar algumas configurações adicionais, seguindo boas práticas de mercado.
+Nos repositórios [05](https://github.com/Django-Dev-Br/005-Django-4-Basic-App) e [06](https://github.com/Django-Dev-Br/006-Django-4-Basic-App-2) vamos adicionar um app ao Projeto. 
+Esses 06 primeiros respositórios supracitados compõem um scaffold ou o core para o desenvolvimento de uma aplicação web com Python e Django. 
+
 ### O que é o Django Admin?
 
 O Django Admin é uma interface administrativa gerada automaticamente por meio das configurações do projeto Django. Ele permite gerenciar modelos (tabelas de bancos de dados) e realizar operações CRUD (Criar, Ler, Atualizar, Deletar) de forma rápida e eficiente. O Django Admin é uma ferramenta poderosa para gerenciar o conteúdo e as funcionalidades do seu site diretamente a partir do navegador.
