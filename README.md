@@ -7,6 +7,7 @@ O Django Admin é uma interface administrativa gerada automaticamente por meio d
 
 [confira o melhor material de toda a internet sobre o assunto:](https://books.agiliq.com/projects/django-admin-cookbook/en/latest/)
 
+**OBS**: Confira no [repositório anterior](https://github.com/Django-Dev-Br/001-django4-basic-project) os conceitos de **Projeto Django, venv, PIP e PyPi**. 
 
 ## COMO RODAR ESSE PROJETO EM SEU COMPUTADOR:
 
@@ -37,38 +38,54 @@ O Django Admin é uma interface administrativa gerada automaticamente por meio d
 1. **Clone o repositório**:
     ```bash
     git clone https://github.com/Django-Dev-Br/002-django4-basic-django-admin.git
-    cd 002-django4-basic-django-admin
     ```
 
 2. **Crie um ambiente virtual**:
+   
+    **Windows**
     ```bash
-    python3 -m venv myvenv  # Linux
-    python -m venv myvenv  # Windows
+     python -m venv myvenv  # Windows
+    ```
+   **Linux**
+    ```bash
+     python3 -m venv myvenv  # Linux
     ```
 
-3. **Ative o ambiente virtual criado**:
+4. **Ative o ambiente virtual criado**:
+   
+    **Windows**
     ```bash
-    source myvenv/bin/activate  # Linux
     myvenv\Scripts\activate  # Windows
     ```
 
-4. **Instale o Django**:
+   **Linux**
+    ```bash
+    source myvenv/bin/activate  # Linux
+    ```
+
+6. **Instale o Django**:
     ```bash
     pip install django==4.2.15
     ```
 
-5. **Execute as migrações do banco de dados**:
+7. **Acesse a pasta do projeto Django**
+   ```bash
+    cd 002-django4-basic-django-admin
+    ```
+   
+8. **Execute as migrações do banco de dados**:
     ```bash
     python manage.py migrate
-    # O comando acima criará no diretório raiz o banco de dados db.sqlite3 com o esquema de tabelas do Django
     ```
+    O comando acima criará no diretório raiz o banco de dados db.sqlite3 com o esquema de tabelas do Django
 
-6. **Crie um superusuário para acessar o Django Admin**:
+9. **Crie um superusuário para acessar o Django Admin**:
     ```bash
     python manage.py createsuperuser
     ```
+    Após, siga as instruções do terminal para criar um usuário e senha. Em regra, usa-se, respectivamente, admin e root. Não é preciso informar o email em ambiente local.
 
-7. **Execute o servidor de desenvolvimento**:
+10. **Execute o servidor de desenvolvimento**:
     ```bash
     python manage.py runserver
     ```
@@ -94,7 +111,7 @@ Faça login com as credenciais do superusuário que você acabou de criar.
 │   ├── settings.py      # Configurações do projeto (banco de dados, apps instalados, etc.)
 │   ├── urls.py          # Mapeamento de requisições HTTP e redirecionamento para os templates HTML
 │   └── wsgi.py          # Configurações para o servidor WSGI (usado para servir a aplicação)
-└── manage.py            # CLI do Django, um script de linha de comando para tarefas administrativas do Django
+└── manage.py            # CLI do Django, um script de linha de comando para tarefas execução de comandos do Django no terminal
 ```
 
 ### OBS: Como Criar um Projeto Django
