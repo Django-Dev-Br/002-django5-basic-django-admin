@@ -85,7 +85,9 @@ O Django Admin é uma interface administrativa gerada automaticamente por meio d
     ```
     Após, siga as instruções do terminal para criar um usuário e senha. Em regra, usa-se, respectivamente, admin e root. Não é preciso informar o email em ambiente local.
 
-10. **Execute o servidor de desenvolvimento**:
+   **OBS:** No [próximo repositório desta série](https://github.com/Django-Dev-Br/003-django-4-fixtures), iremos ver como criar um arquivo de backup desse superusuário ora criado.
+
+11. **Execute o servidor de desenvolvimento**:
     ```bash
     python manage.py runserver
     ```
