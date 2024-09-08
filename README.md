@@ -23,27 +23,16 @@ O Django Admin é uma interface administrativa gerada automaticamente por meio d
 
 ### Requisitos
 
-- **Python 3.12**  
+- **Python 3.12 com PIP e venv**  
   [Baixar Python 3.12](https://www.python.org/downloads/release/python-3122/)
 
   Confira o vídeo para saber como trabalhar com múltiplas versões do Python e com venv (ambiente virtual):
   [![Watch the video](https://img.youtube.com/vi/eetDeQrv0Rs/0.jpg)](https://youtu.be/eetDeQrv0Rs)
 
-- **Virtualenv**
+- **No [repositório anterior](https://github.com/Django-Dev-Br/001-django4-basic-project) há explicações sobre PIP e venv**
 
-  Para instalar o pacote `virtualenv` no Python, utilize os seguintes comandos:
 
-  - **Linux**:
-    ```bash
-    python3 -m pip install virtualenv
-    ```
-
-  - **Windows**:
-    ```bash
-    python -m pip install virtualenv
-    ```
-
-### Passos para Executar
+### 8 passos simples para executar
 
 1. **Clone o repositório**:
     ```bash
@@ -54,42 +43,42 @@ O Django Admin é uma interface administrativa gerada automaticamente por meio d
    
     **Windows**
     ```bash
-     python -m venv myvenv  # Windows
+     python -m venv myvenv  
     ```
    **Linux**
     ```bash
-     python3 -m venv myvenv  # Linux
+     python3 -m venv myvenv  
     ```
 
-4. **Ative o ambiente virtual criado**:
+3. **Ative o ambiente virtual criado**:
    
     **Windows**
     ```bash
-    myvenv\Scripts\activate  # Windows
+    myvenv\Scripts\activate  
     ```
 
    **Linux**
     ```bash
-    source myvenv/bin/activate  # Linux
+    source myvenv/bin/activate  
     ```
 
-6. **Instale o Django**:
-    ```bash
+4. **Instale o Django**:
+    ```python
     pip install django==4.2.15
     ```
 
-7. **Acesse a pasta do projeto Django**
+5. **Acesse a pasta do projeto Django**
    ```bash
     cd 002-django4-basic-django-admin
     ```
    
-8. **Execute as migrações do banco de dados**:
+6. **Execute as migrações do banco de dados**:
     ```bash
     python manage.py migrate
     ```
     O comando acima criará no diretório raiz o banco de dados db.sqlite3 com o esquema de tabelas do Django
 
-9. **Crie um superusuário para acessar o Django Admin**:
+7. **Crie um superusuário para acessar o Django Admin**:
     ```bash
     python manage.py createsuperuser
     ```
@@ -97,7 +86,7 @@ O Django Admin é uma interface administrativa gerada automaticamente por meio d
 
    **OBS:** No [próximo repositório desta série](https://github.com/Django-Dev-Br/003-django-4-fixtures), iremos ver como criar um arquivo de backup desse superusuário ora criado.
 
-11. **Execute o servidor de desenvolvimento**:
+8. **Execute o servidor de desenvolvimento**:
     ```bash
     python manage.py runserver
     ```
