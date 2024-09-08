@@ -23,13 +23,14 @@ O Django Admin é uma interface administrativa gerada automaticamente por meio d
 
 ### Requisitos
 
-- **Python 3.12 com PIP e venv**  
+- **Python 3.12 com PIP e venv**
+
+- **No [repositório anterior](https://github.com/Django-Dev-Br/001-django4-basic-project) há explicações sobre PIP e venv**
+
   [Baixar Python 3.12](https://www.python.org/downloads/release/python-3122/)
 
   Confira o vídeo para saber como trabalhar com múltiplas versões do Python e com venv (ambiente virtual):
   [![Watch the video](https://img.youtube.com/vi/eetDeQrv0Rs/0.jpg)](https://youtu.be/eetDeQrv0Rs)
-
-- **No [repositório anterior](https://github.com/Django-Dev-Br/001-django4-basic-project) há explicações sobre PIP e venv**
 
 
 ### 8 passos simples para executar
