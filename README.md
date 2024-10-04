@@ -24,6 +24,7 @@ O Django Admin é uma interface administrativa gerada automaticamente por meio d
 ### Requisitos
 
 - **Python 3.12 com PIP e venv**
+-  **o Django 5 requer Python 3.10 ou superior.**
 
 - **No [repositório anterior](https://github.com/Django-Dev-Br/001-django4-basic-project) há explicações sobre PIP e venv**
 
@@ -66,6 +67,11 @@ O Django Admin é uma interface administrativa gerada automaticamente por meio d
 4. **Instale o Django**:
     ```python
     pip install django==4.2.15
+    ```
+    - use, preferencialmente, a versão 5.1. Para tanto, execute o comando:
+
+     ```bash
+    pip install  "django>=5.1,<=5.2"
     ```
 
 5. **Acesse a pasta do projeto Django**
