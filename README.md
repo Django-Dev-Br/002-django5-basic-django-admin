@@ -1,5 +1,5 @@
 
-# 002 Django 4 Admin Setup
+# 002 Django 5 - Admin Setup
 
 No [repositório anterior](https://github.com/Django-Dev-Br/001-django4-basic-project) criamos um projeto Django. 
 
