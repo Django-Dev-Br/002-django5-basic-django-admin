@@ -66,7 +66,7 @@ O Django Admin é uma interface administrativa gerada automaticamente por meio d
 
 4. **Instale o Django**:
     ```python
-    pip install django==4.2.15
+    pip install django
     ```
     - use, preferencialmente, a versão 5.1. Para tanto, execute o comando:
 
