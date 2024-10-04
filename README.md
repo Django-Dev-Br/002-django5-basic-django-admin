@@ -38,7 +38,7 @@ O Django Admin é uma interface administrativa gerada automaticamente por meio d
 
 1. **Clone o repositório**:
     ```bash
-    git clone https://github.com/Django-Dev-Br/002-django4-basic-django-admin.git
+    git clone https://github.com/Django-Dev-Br/002-django5-basic-django-admin.git
     ```
 
 2. **Crie um ambiente virtual**:
@@ -76,7 +76,7 @@ O Django Admin é uma interface administrativa gerada automaticamente por meio d
 
 5. **Acesse a pasta do projeto Django**
    ```bash
-    cd 002-django4-basic-django-admin
+    cd 002-django5-basic-django-admin
     ```
    
 6. **Execute as migrações do banco de dados**:
