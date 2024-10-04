@@ -1,13 +1,13 @@
 
 # 002 Django 5 - Admin Setup
 
-No [repositório anterior](https://github.com/Django-Dev-Br/001-django4-basic-project) criamos um projeto Django. 
+No [repositório anterior](https://github.com/Django-Dev-Br/001-django5-basic-project) criamos um projeto Django. 
 
 Agora, dando sequência, vamos materializar a estrutura de tabelas do banco de dados que vem com o Django. Em seguida, vamos criar um superusuário para acessar o Django-Admin. 
 
-Nos repositórios seguines,[03](https://github.com/Django-Dev-Br/003-django-4-fixtures) e [04](https://github.com/Django-Dev-Br/004-django-4-dot-env-file), vamos adicionar algumas configurações adicionais, seguindo boas práticas de mercado.
+Nos repositórios seguines,[03](https://github.com/Django-Dev-Br/003-django5-fixtures) e [04](https://github.com/Django-Dev-Br/004-django5-dot-env-file), vamos adicionar algumas configurações adicionais, seguindo boas práticas de mercado.
 
-Nos repositórios [05](https://github.com/Django-Dev-Br/005-Django-4-Basic-App) e [06](https://github.com/Django-Dev-Br/006-Django-4-Basic-App-2) vamos adicionar um app ao Projeto. 
+Nos repositórios [05](https://github.com/Django-Dev-Br/005-Django5-Basic-App) e [06](https://github.com/Django-Dev-Br/006-Django5-Basic-App-2) vamos adicionar um app ao Projeto. 
 
 Esses 06 primeiros respositórios supracitados compõem um scaffold ou o core para o desenvolvimento de uma aplicação web com Python e Django. 
 
@@ -91,7 +91,7 @@ O Django Admin é uma interface administrativa gerada automaticamente por meio d
     ```
     Após, siga as instruções do terminal para criar um usuário e senha. Em regra, usa-se, respectivamente, admin e root. Não é preciso informar o email em ambiente local.
 
-   **OBS:** No [próximo repositório desta série](https://github.com/Django-Dev-Br/003-django-4-fixtures), iremos ver como criar um arquivo de backup desse superusuário ora criado.
+   **OBS:** No [próximo repositório desta série](https://github.com/Django-Dev-Br/003-django5-fixtures), iremos ver como criar um arquivo de backup desse superusuário ora criado.
 
 8. **Execute o servidor de desenvolvimento**:
     ```bash
