@@ -77,14 +77,25 @@ O Django Admin é uma interface administrativa gerada automaticamente por meio d
      ```bash
     pip install  "django>=5.1,<=5.2"
     ```
+     
+    ----- **OU** -----
+
+    **Instalação via arquivo requirements**
+    ```bash
+    pip install -r requirements.txt
+    ```
+    O arquivo requirements.txt é um arquivo de texto que contém uma lista de pacotes a ser instalado em uma venv. É uma boa prática de programação do ecossistema Python.
    
 6. **Execute as migrações do banco de dados**:
+   
     ```bash
     python manage.py migrate
     ```
     O comando acima criará no diretório raiz o banco de dados db.sqlite3 com o esquema de tabelas do Django
 
-7. **Crie um superusuário para acessar o Django Admin**:
+
+8. **Crie um superusuário para acessar o Django Admin**:
+   
     ```bash
     python manage.py createsuperuser
     ```
@@ -92,7 +103,7 @@ O Django Admin é uma interface administrativa gerada automaticamente por meio d
 
    **OBS:** No [próximo repositório desta série](https://github.com/Django-Dev-Br/003-django5-fixtures), iremos ver como criar um arquivo de backup desse superusuário ora criado.
 
-8. **Execute o servidor de desenvolvimento**:
+10. **Execute o servidor de desenvolvimento**:
     ```bash
     python manage.py runserver
     ```
