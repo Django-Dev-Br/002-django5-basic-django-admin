@@ -63,8 +63,12 @@ O Django Admin é uma interface administrativa gerada automaticamente por meio d
     ```bash
     source myvenv/bin/activate  
     ```
-
-4. **Instale o Django**:
+4. **Acesse a pasta do projeto Django**
+   ```bash
+    cd 002-django5-basic-django-admin
+    ```
+   
+5. **Instale o Django**:
     ```python
     pip install django
     ```
@@ -72,11 +76,6 @@ O Django Admin é uma interface administrativa gerada automaticamente por meio d
 
      ```bash
     pip install  "django>=5.1,<=5.2"
-    ```
-
-5. **Acesse a pasta do projeto Django**
-   ```bash
-    cd 002-django5-basic-django-admin
     ```
    
 6. **Execute as migrações do banco de dados**:
