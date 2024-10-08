@@ -130,6 +130,7 @@ Faça login com as credenciais do superusuário que você acabou de criar.
 │   ├── urls.py          # Mapeamento de requisições HTTP e redirecionamento para os templates HTML
 │   └── wsgi.py          # Configurações para o servidor WSGI (usado para servir a aplicação)
 └── manage.py            # CLI do Django, um script de linha de comando para tarefas execução de comandos do Django no terminal
+└── requirements.txt    # Lista de pacotes Python necessários para o projeto
 ```
 
 ### OBS: Como Criar um Projeto Django
