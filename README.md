@@ -120,7 +120,7 @@ Faça login com as credenciais do superusuário que você acabou de criar.
 ### Estrutura de Diretórios do Projeto
 
 ```
-002-django4-admin-setup/
+002-django5-admin-setup/
 ├── .gitignore           # Arquivo que especifica quais arquivos e diretórios o Git deve ignorar (não incluir no versionamento)
 ├── db.sqlite3           # Banco de dados SQLite criado após as migrações
 ├── myproject/
